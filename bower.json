@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "rakeda.com",
+  "version": "0.0.0",
+  "description": "Rakeda.com",
+  "dependencies": {
+    "handlebars": "2.0.0-alpha.1",
+    "requirejs": "~2.1.14"
+  }
+}
