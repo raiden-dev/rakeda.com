@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "connect-modrewrite": "~0.6.4-pre",
+    "connect": "~2.14.3"
+  }
+}
