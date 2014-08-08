@@ -3,6 +3,31 @@
 > Formidable.
 
 
+## Installation & Build
+
+You need [node.js](http://nodejs.org/) installed on your system.
+
+Install project requirements:
+
+```sh
+npm -g install bower grunt-cli  # needs admin rights
+npm install
+bower install
+```
+
+Building project:
+
+```sh
+grunt
+```
+
+Starting development server:
+
+```sh
+server
+```
+
+
 ## Fonts
 
   * [Open Sans](https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans): Normal 400, Semi-Bold 600

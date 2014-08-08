@@ -1,0 +1,5 @@
+blocks/**/*.hbs
+blocks/**/*.yml
+public/*
+!public/img/
+!public/fonts/
