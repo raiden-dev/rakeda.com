@@ -266,7 +266,7 @@ module.exports = function (grunt) {
 
       blocks: {
         files: ['blocks/**/*.html', 'blocks/**/*.json', 'data/**/*.yml'],
-        tasks: ['copy:data-blocks', 'bundlebars', 'htmlmin:blocks', 'wrap:templates', 'uglify:templates'],
+        tasks: ['copy:data-blocks', 'project', 'bundlebars', 'htmlmin:blocks', 'wrap:templates', 'uglify:templates'],
         options: {
           spawn: false
         }
