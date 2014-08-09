@@ -15,13 +15,13 @@ npm install
 bower install
 ```
 
-Building project:
+Build project:
 
 ```sh
 grunt
 ```
 
-Starting development server:
+Start development server:
 
 ```sh
 server

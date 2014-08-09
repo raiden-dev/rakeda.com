@@ -290,6 +290,6 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['clean', 'copy:data-blocks', 'copy:data-index', 'project', 'bundlebars', 'htmlmin', 'stylus:prod', 'copy', 'wrap', 'uglify']);
+  grunt.registerTask('default', ['clean', 'copy:data-blocks', 'copy:data-index', 'project', 'bundlebars', 'htmlmin', 'stylus:prod', 'copy', 'uglify:lib', 'uglify:src', 'wrap', 'uglify:templates']);
 
 };
