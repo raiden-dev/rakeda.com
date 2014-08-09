@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "name": "all",
+      "title": "All projects",
+      "href": "/"
+    },
+    {
+      "name": "web",
+      "title": "Web design",
+      "href": "/web"
+    },
+    {
+      "name": "ui",
+      "title": "UI design",
+      "href": "/ui"
+    },
+    {
+      "name": "other",
+      "title": "Other",
+      "href": "/other"
+    },
+    {
+      "name": "me",
+      "title": "About me",
+      "href": "/me"
+    }
+  ]
+}

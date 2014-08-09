@@ -1,0 +1,42 @@
+background: /img/patterns/pattern-1.png
+
+headline:
+  title: All projects
+
+tiles:
+  items:
+    -
+      thumbnail: /img/projects/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      href: /project/mega
+      tags:
+        - illustration
+        - calligraphy
+
+    -
+      thumbnail: /img/projects/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      tags:
+        - illustration
+        - calligraphy
+
+    -
+      thumbnail: /img/projects/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      tags:
+        - illustration
+        - calligraphy
+
+    -
+      thumbnail: /img/projects/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      tags:
+        - illustration
+        - calligraphy
+
+    -
+      thumbnail: /img/projects/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      tags:
+        - illustration
+        - calligraphy

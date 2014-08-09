@@ -1,0 +1,7 @@
+<ul class="nav">
+  {{#each items}}
+    <li class="nav__item\{{#if {{name}}.isActive}} nav__item_active\{{/if}}">
+      <a href="{{href}}" class="nav__item__link js-link">{{title}}</a>
+    </li>
+  {{/each}}
+</ul>

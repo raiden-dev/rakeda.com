@@ -1,0 +1,18 @@
+<div class="tiles">
+  \{{#each items}}
+    <div class="tiles__item" style="background-image:url(\{{thumbnail}})">
+      <a href="\{{href}}" class="tiles__item__overlay js-link">
+        <div class="tiles__item__overlay__content">
+          <div class="tiles__item__overlay__content__title">\{{title}}</div>
+          \{{#if tags}}
+            <div class="tiles__item__overlay__content__tags">
+              \{{#each tags}}
+                <span class="tiles__item__overlay__content__tags__item">\{{this}}</span>\{{#unless @last}}, \{{/unless}}
+              \{{/each}}
+            </div>
+          \{{/if}}
+        </div>
+      </a>
+    </div>
+  \{{/each}}
+</div>

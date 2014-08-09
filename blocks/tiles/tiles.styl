@@ -1,0 +1,56 @@
+.tiles
+  font-size: 0
+  margin: -12px
+
+  &__item
+    position: relative
+    display: inline-block
+    vertical-align: center
+    width: 400px
+    height: 300px
+    margin: 12px
+    background-size: cover
+
+    &__overlay
+      display: none
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(58, 214, 176, .95)
+      font-size: 12px
+
+      &__content
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        padding: 10px
+
+        &__title
+          color: #f1f3ea
+          font-size: 20px
+          text-align: center
+          text-transform: uppercase
+
+        &__tags
+          margin-top: 7px
+          text-align: center
+
+          &__item
+            color: #f1f3ea
+
+            &:active
+            &:hover
+              color: #f1f3ea
+
+    &:hover &__overlay
+      display: block
+      animation: projects__item__overlay--showing .5s
+
+
+@keyframes projects__item__overlay--showing
+  0%
+    background-color: rgba(58, 214, 176, 0)
+  100%
+    background-color: rgba(58, 214, 176, .95)

@@ -1,0 +1,92 @@
+headline:
+  title: Mega Style
+
+splash:
+  background: /img/projects/mega/mega_screen1_bg.jpg
+  items:
+    -
+      width: 320px
+      height: 69px
+      background: /img/projects/mega/mega_screen1_logo.svg
+
+items:
+  -
+    width: 936px
+    height: 858px
+    margin-top: 135px
+    margin-bottom: 111px
+    background: /img/projects/mega/mega_screen2_obj1.jpg
+
+  -
+    stripe:
+      height: 196px
+    width: 1019px
+    height: 271px
+    margin-top: -118px
+    background: /img/projects/mega/mega_screen2_stripe1.png
+
+  -
+    width: 1334px
+    height: 2042px
+    margin-top: 144px
+    margin-bottom: 94px
+    background: /img/projects/mega/mega_screen3_obj1.jpg
+
+  -
+    stripe:
+      height: 206px
+    width: 947px
+    height: 158px
+    margin-top: 18px
+    background: /img/projects/mega/mega_screen4_stripe1.png
+
+  -
+    width: 940px
+    height: 678px
+    background: /img/projects/mega/mega_screen4_obj1.jpg
+
+  -
+    width: 1334px
+    height: 774px
+    margin-top: 80px
+    margin-bottom: 106px
+    background: /img/projects/mega/mega_screen5_obj1.jpg
+
+  -
+    width: 941px
+    height: 477px
+    background: /img/projects/mega/mega_screen7.jpg
+
+  -
+    width: 975px
+    height: 808px
+    margin-top: 99px
+    margin-bottom: 135px
+    background: /img/projects/mega/mega_screen8.jpg
+
+  -
+    width: 1007px
+    height: 454px
+    margin-bottom: 204px
+    background: /img/projects/mega/mega_screen9.jpg
+
+  -
+    stripe:
+      height: 136px
+    width: 853px
+    height: 329px
+    margin-top: -111px
+    background: /img/projects/mega/mega_screen10.png
+
+  -
+    width: 435px
+    height: 854px
+    margin-top: 151px
+    margin-bottom: 130px
+    background: /img/projects/mega/mega_screen11.jpg
+
+  -
+    margin-bottom: 212px
+    link:
+      title: http://megastyle.megamall.ru
+      href: http://megastyle.megamall.ru

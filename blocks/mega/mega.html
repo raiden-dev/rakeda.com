@@ -1,0 +1,36 @@
+{{>headline headline}}
+
+{{#with splash}}
+  <div class="project__splash" style="{{>object-style this}}">
+    {{#each items}}
+      {{set this inSplash=true}}
+      <div class="project__object" style="{{>object-style this}}"></div>
+    {{/each}}
+
+    <div class="project__splash__scroll js-scroll"></div>
+  </div>
+{{/with}}
+
+<div class="project__objects{{#if splash}} project__objects_beyond-splash{{/if}}">
+  {{#each items}}
+    {{#if stripe}}
+      <div class="project__stripe" style="{{>object-style stripe}}">
+        {{set this inStripe=true}}
+        <div class="project__object" style="{{>object-style this}}"></div>
+      </div>
+    {{/if}}
+
+    {{#if link}}
+      <a href="{{link.href}}" target="_blank" class="project__link" style="{{>object-style this}}">
+        {{link.title}}
+      </a>
+    {{/if}}
+
+    {{#unless stripe}}
+    {{#unless link}}
+      <div class="project__object" style="{{>object-style this}}"></div>
+    {{/unless}}
+    {{/unless}}
+
+  {{/each}}
+</div>
