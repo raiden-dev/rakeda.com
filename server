@@ -1,2 +1,2 @@
-node tools/server/server public/
+node tools/server/server public/ &
 grunt watch
