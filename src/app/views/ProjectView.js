@@ -29,8 +29,6 @@ define([
             offsetTop = $arrow[0].getBoundingClientRect().top,
             opacity = offsetTop / 1000;
 
-        console.log(opacity);
-
         if (opacity >= 0) {
           $arrow.css('opacity', opacity);
         }
