@@ -20,12 +20,13 @@
       height: 100%
       background-color: rgba(58, 214, 176, .95)
       font-size: 12px
+      overflow: hidden
 
       &__content
         position: relative
         top: 50%
         transform: translateY(-50%)
-        padding: 10px
+        // padding: 10px
 
         &__title
           color: #f1f3ea
@@ -36,6 +37,11 @@
         &__tags
           margin-top: 7px
           text-align: center
+          color: #f1f3ea
+          position: absolute
+          width: 100%
+          bottom: -100%
+          left: 0
 
           &__item
             color: #f1f3ea
@@ -48,9 +54,29 @@
       display: block
       animation: projects__item__overlay--showing .5s
 
+    &:hover &__overlay__content
+      animation: projects__item__overlay__content--slide-down .5s
+
+    &:hover &__overlay__content__tags
+      animation: projects__item__overlay__content__tags--slide-up .5s
+
 
 @keyframes projects__item__overlay--showing
   0%
     background-color: rgba(58, 214, 176, 0)
   100%
     background-color: rgba(58, 214, 176, .95)
+
+@keyframes projects__item__overlay__content--slide-down
+  0%
+    top: 0
+    transform: translateY(-100%)
+  100%
+    top: 50%
+    transform: translateY(-50%)
+
+@keyframes projects__item__overlay__content__tags--slide-up
+  0%
+    bottom: -300px
+  100%
+    bottom: -100%
