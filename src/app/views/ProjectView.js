@@ -24,6 +24,18 @@ define([
     },
 
     onAfterRender: function () {
+      $(window).off('scroll').on('scroll', function () {
+        var $arrow = this.$el.find('.js-scroll'),
+            offsetTop = $arrow[0].getBoundingClientRect().top,
+            opacity = offsetTop / 1000;
+        
+        console.log(opacity);
+
+        if (opacity >= 0) {
+          $arrow.css('opacity', opacity);
+        }`
+      }.bind(this));
+
       this.$el.find('.js-scroll').off('click').on('click', function () {
         $('html, body').animate({
           scrollTop: $(window).height()
