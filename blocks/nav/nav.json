@@ -12,13 +12,8 @@
     },
     {
       "name": "ui",
-      "title": "UI design",
+      "title": "UX/UI design",
       "href": "/ui"
-    },
-    {
-      "name": "other",
-      "title": "Other",
-      "href": "/other"
     },
     {
       "name": "me",
