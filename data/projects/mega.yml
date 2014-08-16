@@ -20,9 +20,9 @@ items:
   -
     stripe:
       height: 196px
-    width: 1019px
-    height: 271px
-    margin-top: -118px
+    width: 1006px
+    height: 308px
+    margin-top: -150px
     background: /img/projects/mega/project_mega_obj2.png
 
   -
@@ -39,11 +39,6 @@ items:
     height: 158px
     margin-top: 18px
     background: /img/projects/mega/project_mega_obj4.png
-
-  -
-    width: 940px
-    height: 678px
-    background: /img/projects/mega/project_mega_obj5.jpg
 
   -
     width: 1334px
@@ -73,13 +68,13 @@ items:
   -
     stripe:
       height: 136px
-    width: 853px
+    width: 940px
     height: 329px
     margin-top: -111px
     background: /img/projects/mega/project_mega_obj10.png
 
   -
-    width: 435px
+    width: 496px
     height: 854px
     margin-top: 151px
     margin-bottom: 130px
