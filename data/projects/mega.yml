@@ -19,16 +19,16 @@ items:
 
   -
     stripe:
-      height: 196px
-    width: 1006px
-    height: 308px
-    margin-top: -150px
+      height: 200px
+    width: 1136px
+    height: 209px
+    margin-top: -50px
     background: /img/projects/mega/project_mega_obj2.png
 
   -
     width: 1334px
-    height: 2042px
-    margin-top: 144px
+    height: 2188px
+    margin-top: 100px
     margin-bottom: 94px
     background: /img/projects/mega/project_mega_obj3.jpg
 
@@ -67,8 +67,8 @@ items:
 
   -
     stripe:
-      height: 136px
-    width: 940px
+      height: 168px
+    width: 1026px
     height: 329px
     margin-top: -111px
     background: /img/projects/mega/project_mega_obj10.png
