@@ -26,8 +26,9 @@ define([
     onAfterRender: function () {
       $(window).off('scroll').on('scroll', function () {
         var $arrow = this.$el.find('.js-scroll'),
-            offsetTop = $arrow[0].getBoundingClientRect().top,
-            opacity = offsetTop / 1000;
+            windowHeight = $(window).height(),
+            offsetBottom = windowHeight - $arrow.offset().top - $arrow.height(),
+            opacity = 1 - $(window).scrollTop() / (windowHeight - offsetBottom);
 
         if (opacity >= 0) {
           $arrow.css('opacity', opacity);
