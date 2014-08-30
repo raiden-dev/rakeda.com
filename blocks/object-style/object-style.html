@@ -22,6 +22,14 @@
   height: \{{height}};
 \{{/if}}
 
+\{{#if top}}
+  top: \{{top}};
+\{{/if}}
+
+\{{#if left}}
+  left: \{{left}};
+\{{/if}}
+
 \{{#if margin-top}}
   margin-top: \{{margin-top}};
 \{{/if}}
@@ -32,4 +40,19 @@
 
 \{{#if background}}
   background-image: url(\{{background}});
+\{{/if}}
+
+\{{#if background-color}}
+  background-color: \{{background-color}};
+\{{/if}}
+
+\{{#if background-size}}
+  background-size: \{{background-size}};
+\{{/if}}
+
+\{{#if centered}}
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 \{{/if}}
