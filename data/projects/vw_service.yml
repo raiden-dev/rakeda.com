@@ -1,0 +1,45 @@
+headline:
+  title: Volkswagen Service
+
+splash:
+  background: /img/projects/vw_service/project_vw_service_splash_bg.jpg
+  background-size: cover
+  items:
+    -
+      width: 200px
+      height: 200px
+      background: /img/projects/vw_service/project_vw_service_splash_obj1.svg
+
+items:
+  -
+    width: 855px
+    height: 851px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/youtube/project_youtube_obj1.png
+
+  -
+    width: 1366px
+    height: 768px
+    margin-top: 0px
+    margin-bottom: 120px
+    background: /img/projects/youtube/project_youtube_obj2.jpg
+
+  -
+    width: 1366px
+    height: 1520px
+    margin-top: 0px
+    margin-bottom: 120px
+    background: /img/projects/youtube/project_youtube_obj3.jpg
+
+  -
+    width: 1366px
+    height: 768px
+    margin-bottom: 120px
+    background: /img/projects/youtube/project_youtube_obj4.jpg
+
+  -
+    margin-bottom: 212px
+    link:
+      title: http://youtube.com
+      href: http://youtube.com
