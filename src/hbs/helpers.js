@@ -25,6 +25,13 @@
       return new Handlebars.SafeString(years);
     });
 
+    Handlebars.registerHelper('calc', function (first, second) {
+      first = parseInt(first);
+      second = parseInt(second);
+
+      return new Handlebars.SafeString(first + second + 'px');
+    });
+
   }
 
   if (typeof define === 'function') {

@@ -1,0 +1,96 @@
+headline:
+  title: Service Pool
+
+splash:
+  background: /img/projects/servicepool/project_servicepool_splash_bg.jpg
+  background-size: cover
+  items:
+    -
+      width: 200px
+      height: 200px
+      background: /img/projects/servicepool/project_servicepool_splash_obj1.svg
+
+items:
+  -
+    width: 891px
+    height: 451px
+    margin-top: 135px
+    margin-bottom: 111px
+    background: /img/projects/servicepool/project_servicepool_obj1.png
+
+  -
+    background-size: contain
+    width: 100%
+    height: 35vw
+    margin-top: -50px
+    background: /img/projects/servicepool/project_servicepool_obj2.jpg
+
+  -
+    name: "obj3"
+    width: 940px
+    height: 521px
+    margin-top: 100px
+    margin-bottom: 94px
+    background: /img/projects/servicepool/project_servicepool_obj3.png
+
+  -
+    name: "obj4"
+    width: 1190px
+    height: 833px
+    margin-top: 18px
+    background: /img/projects/servicepool/project_servicepool_obj4.jpg
+
+  -
+    name: "obj5"
+    width: 940px
+    height: 233px
+    margin-top: 80px
+    margin-bottom: 106px
+    background: /img/projects/servicepool/project_servicepool_obj5.jpg
+
+  -
+    width: 562px
+    height: 102px
+    background: /img/projects/servicepool/project_servicepool_obj6.png
+
+  -
+    name: "obj7"
+    width: 1943px
+    height: 1263px
+    margin-top: 99px
+    margin-bottom: 135px
+    centered: true
+    background: /img/projects/servicepool/project_servicepool_obj7.jpg
+
+  -
+    name: "obj8"
+    width: 940px
+    height: 391px
+    margin-bottom: 100px
+    background: /img/projects/servicepool/project_servicepool_obj8.jpg
+
+  -
+    width: 704px
+    height: 212px
+    margin-bottom: 100px
+    background: /img/projects/servicepool/project_servicepool_obj9.png
+
+  -
+    name: "obj10"
+    width: 1334px
+    height: 987px
+    margin-bottom: 100px
+    background: /img/projects/servicepool/project_servicepool_obj10.jpg
+
+  -
+    width: 1200px
+    video:
+      src: /img/projects/servicepool/project_servicepool_video.mp4
+      width: 1200px
+      height: 674px
+      margin-top: 24px
+      margin-bottom: 100px
+      overlay:
+        width: 1200px
+        height: 722px
+        background: /img/projects/servicepool/project_servicepol_mask.png

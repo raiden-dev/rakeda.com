@@ -2,3 +2,12 @@ background: /img/patterns/pattern-1.png
 
 headline:
   title: Web design
+
+tiles:
+  items:
+    -
+      thumbnail: /img/projects/mega/project_mega_thumbnail.jpg
+      title: 5 years anniversary
+      href: /project/mega
+      tags:
+        - Web
