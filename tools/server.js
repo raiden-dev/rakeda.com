@@ -7,7 +7,7 @@ var args = process.argv.slice(2),
 
 var app = connect()
   .use(modRewrite([
-    '^(?:(?!.js|.css|.html|.png|.svg|.jpg|.gif|.ico|.woff|.ttf|.eot).)+$ /' + index
+    '^(?:(?!.js|.css|.html|.png|.svg|.jpg|.gif|.ico|.woff|.ttf|.eot|.mp4).)+$ /' + index
   ]))
   .use(connect.static(args[0]))
   .listen(port)
