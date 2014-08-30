@@ -10,5 +10,33 @@ tiles:
       title: 5 years anniversary
       href: /project/mega
       tags:
-        - illustration
-        - calligraphy
+        - Web
+
+    -
+      thumbnail: /img/projects/servicepool/project_servicepool_thumbnail.jpg
+      title: Service Pool
+      href: /project/servicepool
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/youtube/project_youtube_thumbnail.jpg
+      title: YouTube
+      href: /project/youtube
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/ofilms/project_ofilms_thumbnail.jpg
+      title: Ofilms
+      href: /project/ofilms
+      tags:
+        - UX/UI
+
+    # -
+    #   thumbnail: /img/projects/vw_service/project_vw_service_thumbnail.jpg
+    #   title: Volkswagen Service
+    #   href: /project/vw_service
+    #   tags:
+    #     - UX/UI
+

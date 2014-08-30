@@ -2,3 +2,26 @@ background: /img/patterns/pattern-1.png
 
 headline:
   title: UI design
+
+tiles:
+  items:
+    -
+      thumbnail: /img/projects/servicepool/project_servicepool_thumbnail.jpg
+      title: Service Pool
+      href: /project/servicepool
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/youtube/project_youtube_thumbnail.jpg
+      title: YouTube
+      href: /project/youtube
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/ofilms/project_ofilms_thumbnail.jpg
+      title: Ofilms
+      href: /project/ofilms
+      tags:
+        - UX/UI

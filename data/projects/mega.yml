@@ -11,6 +11,7 @@ splash:
 
 items:
   -
+    name: "obj1"
     width: 936px
     height: 858px
     margin-top: 135px
@@ -23,9 +24,11 @@ items:
     width: 1136px
     height: 209px
     margin-top: -50px
+    centered: true
     background: /img/projects/mega/project_mega_obj2.png
 
   -
+    name: "obj3"
     width: 1334px
     height: 2188px
     margin-top: 100px
@@ -41,6 +44,7 @@ items:
     background: /img/projects/mega/project_mega_obj4.png
 
   -
+    name: "obj6"
     width: 1334px
     height: 774px
     margin-top: 80px
@@ -48,6 +52,7 @@ items:
     background: /img/projects/mega/project_mega_obj6.jpg
 
   -
+    name: "obj7"
     width: 941px
     height: 477px
     background: /img/projects/mega/project_mega_obj7.jpg
@@ -71,6 +76,7 @@ items:
     width: 1026px
     height: 329px
     margin-top: -111px
+    centered: true
     background: /img/projects/mega/project_mega_obj10.png
 
   -
