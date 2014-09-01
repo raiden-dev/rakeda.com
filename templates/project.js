@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(a,b,c,d){var e,f='<div class="project">\n  ';return e=this.invokePartial(c.projectName,"projectName",a,void 0,b,c,d),(e||0===e)&&(f+=e),f+"\n</div>\n"},usePartial:!0,useData:!0})});

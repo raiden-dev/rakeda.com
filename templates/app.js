@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(){return'<div class="app">\n  <div id="sidebar"></div>\n  <div id="main"></div>\n</div>\n'},useData:!0})});

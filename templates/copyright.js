@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(){return'<div class="copyright">Copyright 2014 &copy; Rakeda Ian<br>All rights reserved</div>\n'},useData:!0})});

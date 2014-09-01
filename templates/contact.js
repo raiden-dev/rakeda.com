@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(){return'<div class="contact">\n  <a href="mailto:hello@rakeda.com" class="contact__email"><span class="contact__email__box">hello</span>@rakeda.com</a>\n</div>\n'},useData:!0})});

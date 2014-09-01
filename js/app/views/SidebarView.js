@@ -1,0 +1,2 @@
+define(["views/AbstractView","views/NavView","templates/sidebar","backbone"],function(a,b,c){var d=a.extend({el:"#sidebar",template:c,partials:{nav:new b}});return d});
+//# sourceMappingURL=SidebarView.map

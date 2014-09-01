@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(){return'{"mega":1,"servicepool":1,"youtube":1,"ofilms":1,"vw_service":0}\n'},useData:!0})});

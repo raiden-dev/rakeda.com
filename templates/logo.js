@@ -1,0 +1,1 @@
+define(["handlebars"],function(a){return a.template({compiler:[5,">= 2.0.0"],main:function(){return'<a\n  href="/"\n  class="logo js-link"\n  title=""\n  style="background-image:url(/img/logo.svg)"\n></a>\n'},useData:!0})});
