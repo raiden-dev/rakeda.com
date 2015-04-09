@@ -25,3 +25,31 @@ tiles:
       href: /project/ofilms
       tags:
         - UX/UI
+
+    -
+      thumbnail: /img/projects/furious/project_furious_thumbnail.jpg
+      title: Furious
+      href: /project/furious
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/rp/project_rp_thumbnail.jpg
+      title: RP
+      href: /project/rp
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/vk/project_vk_thumbnail.jpg
+      title: VK
+      href: /project/vk
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/yodha/project_yodha_thumbnail.jpg
+      title: Yodha
+      href: /project/yodha
+      tags:
+        - UX/UI
