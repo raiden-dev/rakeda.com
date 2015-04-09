@@ -7,7 +7,7 @@ tiles:
   items:
     -
       thumbnail: /img/projects/mega/project_mega_thumbnail.jpg
-      title: 5 years anniversary
+      title: MegaStyle
       href: /project/mega
       tags:
         - Web
@@ -30,6 +30,55 @@ tiles:
       thumbnail: /img/projects/ofilms/project_ofilms_thumbnail.jpg
       title: Ofilms
       href: /project/ofilms
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/furious/project_furious_thumbnail.jpg
+      title: Furious
+      href: /project/furious
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/vk/project_vk_thumbnail.jpg
+      title: VK
+      href: /project/vk
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/brilliant/project_brilliant_thumbnail.jpg
+      title: Brilliant
+      href: /project/brilliant
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/ibiza/project_ibiza_thumbnail.jpg
+      title: Ibiza
+      href: /project/ibiza
+      tags:
+        - Web
+
+    -
+      thumbnail: /img/projects/rp/project_rp_thumbnail.jpg
+      title: RP
+      href: /project/rp
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/vw_service/project_vw_service_thumbnail.jpg
+      title: VW service
+      href: /project/vw_service
+      tags:
+        - Web
+
+    -
+      thumbnail: /img/projects/yodha/project_yodha_thumbnail.jpg
+      title: Yodha
+      href: /project/yodha
       tags:
         - UX/UI
 

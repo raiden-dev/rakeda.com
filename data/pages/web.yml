@@ -7,7 +7,29 @@ tiles:
   items:
     -
       thumbnail: /img/projects/mega/project_mega_thumbnail.jpg
-      title: 5 years anniversary
+      title: MegaStyle
       href: /project/mega
       tags:
         - Web
+
+    -
+      thumbnail: /img/projects/brilliant/project_brilliant_thumbnail.jpg
+      title: Brilliant
+      href: /project/brilliant
+      tags:
+        - Web
+
+    -
+      thumbnail: /img/projects/ibiza/project_ibiza_thumbnail.jpg
+      title: Ibiza
+      href: /project/ibiza
+      tags:
+        - Web
+
+    -
+      thumbnail: /img/projects/vw_service/project_vw_service_thumbnail.jpg
+      title: VW service
+      href: /project/vw_service
+      tags:
+        - Web
+

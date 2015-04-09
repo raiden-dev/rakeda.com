@@ -12,34 +12,110 @@ splash:
 
 items:
   -
-    width: 855px
-    height: 851px
+    name: "obj1"
+    width: 1111px
+    height: 750px
     margin-top: 100px
     margin-bottom: 111px
-    background: /img/projects/youtube/project_youtube_obj1.png
+    background: /img/projects/vw_service/project_vw_service_obj1.png
 
   -
-    width: 1366px
-    height: 768px
-    margin-top: 0px
-    margin-bottom: 120px
-    background: /img/projects/youtube/project_youtube_obj2.jpg
+    name: "obj2"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj2.png
 
   -
-    width: 1366px
-    height: 1520px
-    margin-top: 0px
-    margin-bottom: 120px
-    background: /img/projects/youtube/project_youtube_obj3.jpg
+    name: "obj3"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj3.png
 
   -
-    width: 1366px
-    height: 768px
-    margin-bottom: 120px
-    background: /img/projects/youtube/project_youtube_obj4.jpg
+    name: "obj4"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj4.png
 
+  -
+    name: "obj5"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj5.png
+
+  -
+    name: "obj6"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj6.png
+
+  -
+    name: "obj7"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj7.png
+
+  -
+    name: "obj8"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj8.png
+
+  -
+    name: "obj9"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj9.png
+
+  -
+    name: "obj10"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj10.png
+
+  -
+    name: "obj11"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj11.png
+
+  -
+    name: "obj12"
+    width: 1111px
+    height: 750px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj12.png
+
+  -
+    name: "obj13"
+    width: 296px
+    height: 345px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/vw_service/project_vw_service_obj13.gif
   -
     margin-bottom: 212px
     link:
-      title: http://youtube.com
-      href: http://youtube.com
+      title: check
+      href: http://autumn-check-2014.volkswagen.ru/
