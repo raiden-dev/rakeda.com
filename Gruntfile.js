@@ -140,7 +140,7 @@ module.exports = function (grunt) {
           wrapper: ['define(function(){', ';return window.Handlebars=Handlebars;});']
         },
         files: {
-          'public/js/lib/handlebars.js': 'bower_components/handlebars/handlebars.min.js'
+          'public/js/lib/handlebars.js': 'node_modules/handlebars/dist/handlebars.min.js'
         }
       },
 
@@ -149,7 +149,7 @@ module.exports = function (grunt) {
           wrapper: ['define(function(){', ';return _;});']
         },
         files: {
-          'public/js/lib/underscore.js': 'bower_components/underscore/underscore.min.js'
+          'public/js/lib/underscore.js': 'node_modules/underscore/underscore.min.js'
         }
       },
 
@@ -173,9 +173,9 @@ module.exports = function (grunt) {
     uglify: {
       lib: {
         files: {
-          'public/js/lib/require.js': 'bower_components/requirejs/require.js',
-          'public/js/lib/backbone.js': 'bower_components/backbone/backbone.js',
-          'bower_components/underscore/underscore.min.js': 'bower_components/underscore/underscore.js'
+          'public/js/lib/require.js': 'node_modules/requirejs/require.js',
+          'public/js/lib/backbone.js': 'node_modules/backbone/backbone.js',
+          'node_modules/underscore/underscore.min.js': 'node_modules/underscore/underscore.js'
         }
       },
 
@@ -230,7 +230,7 @@ module.exports = function (grunt) {
 
       lib: {
         files: {
-          'public/js/lib/jquery.js': 'bower_components/jquery/dist/jquery.min.js'
+          'public/js/lib/jquery.js': 'node_modules/jquery/dist/jquery.min.js'
         }
       },
 
