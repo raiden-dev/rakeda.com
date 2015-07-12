@@ -6,16 +6,8 @@ module.exports = function (grunt) {
     return path.join(dest, name[1], name[0]);
   }
 
+  require('load-grunt-tasks')(grunt);
   grunt.task.loadTasks('tasks');
-
-  grunt.loadNpmTasks('grunt-contrib-stylus');
-  grunt.loadNpmTasks('grunt-wrap');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-htmlmin');
-  grunt.loadNpmTasks('grunt-newer');
-  grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
