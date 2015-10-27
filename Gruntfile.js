@@ -135,15 +135,6 @@ module.exports = function (grunt) {
     },
 
     wrap: {
-      handlebars: {
-        options: {
-          wrapper: ['define(function(){', ';return window.Handlebars=Handlebars;});']
-        },
-        files: {
-          'public/js/lib/handlebars.js': 'node_modules/handlebars/dist/handlebars.min.js'
-        }
-      },
-
       underscore: {
         options: {
           wrapper: ['define(function(){', ';return _;});']
@@ -230,7 +221,8 @@ module.exports = function (grunt) {
 
       lib: {
         files: {
-          'public/js/lib/jquery.js': 'node_modules/jquery/dist/jquery.min.js'
+          'public/js/lib/jquery.js': 'node_modules/jquery/dist/jquery.min.js',
+          'public/js/lib/handlebars.js': 'node_modules/handlebars/dist/handlebars.min.js'
         }
       },
 
