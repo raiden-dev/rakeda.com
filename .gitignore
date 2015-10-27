@@ -3,3 +3,6 @@ blocks/**/*.yml
 public/*
 !public/img/
 !public/fonts/
+node_modules/
+bower_components/
+*.map
