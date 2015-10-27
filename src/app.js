@@ -21,10 +21,11 @@ require.config({
 require([
   'Router',
 
+  'handlebars',
   'backbone',
   'hbs/helpers'
-], function (Router) {
-
+], function (Router, Handlebars) {
+  window.Handlebars = Handlebars;
   new Router();
   Backbone.history.start({ pushState: true });
 

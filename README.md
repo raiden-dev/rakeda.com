@@ -10,9 +10,8 @@ You need [node.js](http://nodejs.org/) installed on your system.
 Install project requirements:
 
 ```sh
-npm -g install bower grunt-cli  # needs admin rights
+npm -g install grunt-cli  # needs admin rights
 npm install
-bower install
 ```
 
 Build project:
@@ -24,7 +23,7 @@ grunt
 Start development server:
 
 ```sh
-server
+./server
 ```
 
 
