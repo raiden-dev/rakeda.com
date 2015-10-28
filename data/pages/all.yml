@@ -82,6 +82,19 @@ tiles:
       tags:
         - UX/UI
 
+    -
+      thumbnail: /img/projects/vk_app/project_vk_thumbnail.jpg
+      title: VK App
+      href: /project/vk_app
+      tags:
+        - UX/UI
+
+    -
+      thumbnail: /img/projects/oorraa/project_oorraa_thumbnail.jpg
+      title: OORRAA
+      href: /project/oorraa
+      tags:
+        - UX/UI
     # -
     #   thumbnail: /img/projects/vw_service/project_vw_service_thumbnail.jpg
     #   title: Volkswagen Service
