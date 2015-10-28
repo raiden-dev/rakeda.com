@@ -1,0 +1,63 @@
+headline:
+  title: OORRAA
+
+splash:
+  background: /img/projects/oorraa/project_oorraa_splash_bg.jpg
+  background-size: cover
+  items:
+    -
+      width: 216px
+      height: 188px
+      background: /img/projects/oorraa/project_oorraa_splash_obj1.svg
+
+items:
+  -
+    name: "obj1"
+    width: 1175px
+    height: 1102px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/oorraa/project_oorraa_obj1.png
+
+  -
+    name: "obj2"
+    width: 1760px
+    height: 568px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/oorraa/project_oorraa_obj2.png
+
+  -
+    name: "obj3"
+    width: 1160px
+    height: 1457px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/oorraa/project_oorraa_obj3.png
+
+  -
+    name: "obj4"
+    width: 1160px
+    height: 1814px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/oorraa/project_oorraa_obj4.png
+
+  -
+    name: "obj5"
+    width: 1176px
+    height: 1073px
+    margin-top: 100px
+    margin-bottom: 111px
+    background: /img/projects/oorraa/project_oorraa_obj5.png
+
+  -
+    margin-bottom: 212px
+    link:
+      title: iOS
+      href: https://itunes.apple.com/us/app/id971241141
+  -
+    margin-bottom: 212px
+    link:
+      title: Android
+      href: https://play.google.com/store/apps/details?id=com.oorraa.b2bmp.buyer
